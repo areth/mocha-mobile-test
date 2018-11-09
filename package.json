@@ -1,0 +1,19 @@
+{
+  "name": "mocha-mobile-test",
+  "version": "0.0.1",
+  "description": "Test for mocha-mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --recursive",
+    "test:debug": "DEBUG=*:test:* mocha --timeout 10000 --recursive",
+    "test:android": "mocha-mobile --arch android"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.2.1"
+  },
+  "devDependencies": {
+    "mocha-mobile": "file:../mocha-mobile"
+  }
+}
