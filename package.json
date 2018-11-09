@@ -8,12 +8,23 @@
     "test:debug": "DEBUG=*:test:* mocha --timeout 10000 --recursive",
     "test:android": "mocha-mobile --arch android"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/areth/mocha-mobile-test.git"
+  },
+  "keywords": [
+    "mobile",
+    "test"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/areth/mocha-mobile-test/issues"
+  },
   "dependencies": {
     "figlet": "^1.2.1"
   },
   "devDependencies": {
-    "mocha-mobile": "file:../mocha-mobile"
+    "mocha-mobile": "0.0.2"
   }
 }
