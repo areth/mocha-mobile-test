@@ -22,9 +22,8 @@
     "url": "https://github.com/areth/mocha-mobile-test/issues"
   },
   "dependencies": {
-    "figlet": "^1.2.1"
+    "figlet": "^1.2.1",
+    "mocha-mobile": "0.0.5"
   },
-  "devDependencies": {
-    "mocha-mobile": "0.0.2"
-  }
+  "devDependencies": {}
 }

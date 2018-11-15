@@ -6,8 +6,8 @@ describe('basic', () => {
     assert.equal(sum, 4);
   });
 
-  it('2 + 2 = 5', () => {
+  it('2 + 2 != 5', () => {
     const sum = 2 + 2;
-    assert.equal(sum, 5);
+    assert.notEqual(sum, 5);
   });
 });
